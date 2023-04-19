@@ -17,7 +17,7 @@
 
       <div class="technologies__content">
         <picture>
-          <source srcset="resources/images/block__inner1/mask_group_mobile.png" media="(max-width:400px)">
+          <source srcset="resources/images/block__inner1/mask_group_mobile.png" media="(max-width:500px)">
           <img class="technologies__content-img" src="resources/images/block__inner1/mask_group.png"
           alt="Девушка с прибором виртуальной реальности">
         </picture>
@@ -40,32 +40,32 @@
 
 
       <div class="hydra-tech">
-        <img class="hydra-tech__img hydra-tech_modifier-img1" src="resources/images/block__inner2/hydra-tech1.png"
+        <img class="hydra-tech__img hydra-tech_modifier-img1 open-slide" src="resources/images/block__inner2/hydra-tech1.png"
           alt="Unreal" class="hydra-tech__images">
         <img class="hydra-tech__img hydra-tech_modifier-img2" src="resources/images/block__inner2/hydra-tech2.png"
           alt="Unity" class="hydra-tech__images">
         <img class="hydra-tech__img hydra-tech_modifier-img3" src="resources/images/block__inner2/hydra-tech3.png"
           alt="Oculus" class="hydra-tech__images">
-        <img class="hydra-tech__img hydra-tech_modifier-img4 open-slide" src="resources/images/block__inner2/hydra-tech4.png"
+        <img class="hydra-tech__img hydra-tech_modifier-img4" src="resources/images/block__inner2/hydra-tech4.png"
           alt="Vive" class="hydra-tech__images">
 
 
         <!-- Стрелки слайдера -->
-        <div class="hydra-tech-arrows">
+        <div id="btn-elements" class="hydra-tech-arrows hide-block">
 
           <!-- Кнопка стрелки влево -->
-          <div class="hydra-tech-arrows__button-prev">
-            <div class="hydra-tech-arrows__button-prev-cercle1">
-              <div class="hydra-tech-arrows__button-prev-cercle2">
+          <div class="hydra-tech-arrows__button button-prev">
+            <div class="hydra-tech-arrows__button-cercle1">
+              <div class="hydra-tech-arrows__button-cercle2">
                   <img class="hydra-tech-arrows__btn-prev" src="resources/icon/arrow-prev.png" alt="Стлелка влево">
               </div>
             </div>
           </div>
 
           <!-- Кнопка стрелки вправо -->
-          <div class="hydra-tech-arrows__button-prev">
-            <div class="hydra-tech-arrows__button-prev-cercle1">
-              <div class="hydra-tech-arrows__button-prev-cercle2">
+          <div class="hydra-tech-arrows__button button-next">
+            <div class="hydra-tech-arrows__button-cercle1">
+              <div class="hydra-tech-arrows__button-cercle2">
                   <img class="hydra-tech-arrows__btn-next" src="resources/icon/arrow-next.png" alt="Стлелка вправо">
               </div>
             </div>
@@ -77,6 +77,8 @@
 
     </div>
   </div>
+
+  <script src="scripts/gallery.js"></script>
 
 </body>
 
