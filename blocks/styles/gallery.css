@@ -1,3 +1,10 @@
+.hydra-tech__link{
+    /* width: 200px;
+    height: 200px; */
+    z-index: 100;
+    cursor: pointer;
+}
+
 .hydra-tech-arrows{
     display: flex;
     justify-content: space-between;
@@ -78,6 +85,7 @@
 @media (max-width: 500px){
     .hydra-tech__img{
         display: none;
+        z-index: 90;
     }
 
     .open-slide{
@@ -88,26 +96,26 @@
     /* Модификаторы */
     .hydra-tech_modifier-img1{
         margin-right: 0px;
-        width: 257px;
-        height: 257px;
+        width: 200px;
+        height: 200px;
     }
 
     .hydra-tech_modifier-img2{
         margin-right: 0px;
-        width: 257px;
-        height: 257px;
+        width: 200px;
+        height: 200px;
     }
 
     .hydra-tech_modifier-img3{
         margin-right: 0px;
-        width: 256px;
-        height: 256px;
+        width: 200px;
+        height: 200px;
     }
 
     .hydra-tech_modifier-img4{
         margin-right: 0px;
-        width: 257px;
-        height: 257px;
+        width: 200px;
+        height: 200px;
     }
 
     .hide-block{

@@ -2,8 +2,8 @@ const ACTIVE_SLIDE_CLASSNAME = 'open-slide';
 
 const slidesNodes = Array.from(document.querySelectorAll('.hydra-tech__img'));
 console.log(slidesNodes);
-const prevButtonNode = document.querySelector('.button-prev');
-const nextButtonNode = document.querySelector('.button-next');
+const prevButtonNode = document.querySelector('.gallery__control-prev');
+const nextButtonNode = document.querySelector('.gallery__control-next');
 let activeId;
 
 init();
@@ -35,8 +35,3 @@ function getPrevId() {
 function getNextId() {
     return activeId === (slidesNodes.length - 1) ? 0: activeId + 1;
 }
-
-document.getElementById("btn-elements").onclick = function(e){
-    const target = e.target;
-    console.log(target);
-};
