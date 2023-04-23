@@ -9,10 +9,10 @@ function toggleSlider(){
     hydraTech.classList.toggle(OPENED_CLASSNAME);
     
     if(hydraTech.classList.contains(OPENED_CLASSNAME)){
-        hydraTechArrowsBtn.src = "file:///C:/Users/Honor/Desktop/hydra/resources/icon/arrow-down.png";
+        hydraTechArrowsBtn.src = "https://konstantinkzh.github.io/hydra/resources/icon/arrow-down.png";
     }
 
     else{
-        hydraTechArrowsBtn.src = "file:///C:/Users/Honor/Desktop/hydra/resources/icon/arrow-upwards.png";
+        hydraTechArrowsBtn.src = "https://konstantinkzh.github.io/hydra/resources/icon/arrow-updown.png";
     };
 };
